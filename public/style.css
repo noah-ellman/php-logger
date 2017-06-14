@@ -1,0 +1,19 @@
+BODY { color: #888; line-height:1.05em; font-family: "Source Code Pro","monospace"; background-color: #111; }
+body, html { overflow-x: hidden; }
+div { margin-bottom:5px; }
+DIV.q { background-color:#292929;padding:3px 5px 4px 3px;margin:2px 2px 2px 1px; font-family:Consolas; font-size:12px !important; border-top:1px solid #777; border-left:1px solid #888;}
+div.odump { clear: both; padding:2px 3px 2px 8px; margin-top: 1px; background-color:#363636; color: #EEEEEE; border-top:1px solid #222; }
+div.odump table { border:0; padding:0; margin:0; }
+div.odump td { font-size: 9px; font-family:"MS Reference Sans Serif", "Arial", monospace; padding:2px 5px 2px 5px; background-color: #333333; }
+div.cdumph { clear: both; background:#333133; padding:3px 3px 3px 8px; margin-top:1px; cursor:pointer; border-top:1px solid #222; }
+div.cdump { margin:0px 10px 5px 20px;padding:6px;width:auto;  background:#2A2A2A; border-bottom: 1px dotted #000000; border-left: 1px dotted #000000; font-size: 9px; }
+#debug { font-family:"MS Reference Sans Serif","Consolas", Calibri; color: #EEEEEE; line-height:14px !important; font-size:12px; }
+STRONG { color:yellow; font-size:1.1em; font-weight: bold; display: inline; }
+HR { height: 1px;   line-height: 1px; border: 1px dotted orange; margin: 10px; }
+I, .debug * I { color: #FFFFBB; font-style:normal; font-weight: normal; font-size:11px; }
+B {color:orange; font-weight: bold; font-size:12px;  }
+EM {display: block; width: auto; padding: 3px 15px 3px 15px; color:pink; font-weight: bold; font-style: normal; font-size:1.15em;}
+VAR { color:#5577BB; font-style:normal; white-space:pre; }
+P { margin:2px 5px 2px 10px; text-indent:0px; line-height:12px; }
+#debug { padding: 4px; font-family:'MS Reference Sans Serif', monospace; background-color: #444444; text-align: left; font-size:10px;color:white;font-weight:normal; }
+B STRONG { font-size:15px; line-height: 1.1em; color: #eee; }

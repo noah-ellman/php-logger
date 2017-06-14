@@ -1,0 +1,40 @@
+{
+  "name": "php-logger",
+  "version": "0.9.1",
+  "private": false,
+  "author": "Noah Ellman",
+  "description": "Simple streaming log server with web interface to allow easy verbose debugging from any application.",
+  "scripts": {
+    "start": "node ./bin/www",
+    "nodemon": "nodemon"
+  },
+  "main": "index.js",
+  "publishConfig": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noah-ellman/live-logger.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "debug",
+    "stream",
+    "socket"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/jquery": "^2.0.41",
+    "@types/node": "^7.0.13",
+    "@types/ws": "0.0.40",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "events": "^1.1.1",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2",
+    "ws": "^2.3.1"
+  }
+}
